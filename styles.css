@@ -142,12 +142,12 @@ section {
 
 
 .s2 {
-    background: white;
+    background: whitesmoke;
     background-size: cover;
 }
 
 .s3 {
-    background: white;
+    background: whitesmoke;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -156,7 +156,7 @@ section {
 }
 
 .s4 {
-    background: lightblue;
+    background: whitesmoke;
     background-size: cover;
 }
 
@@ -169,10 +169,8 @@ section {
 }
 
 #description {
-    /* margin: 10%; */
     width: 50% ;
-    margin-right: 5%;
-
+    margin-right: 10%;
     font-size: 20px;
     border: 2px solid black;
     padding: 20px;
@@ -189,7 +187,8 @@ section {
 
 .resume {
     display: flex;
-    margin: 5%;
+    margin: 10%;
+    margin-top: 0;
 }
 
 button {
