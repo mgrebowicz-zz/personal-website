@@ -24,7 +24,7 @@ const tl = new TimelineMax();
 
 //typing effect
 
-const texts = [`Hi, I'm Michael`, `I'm a web developer`, `Scroll down to learn more about me`]
+const texts = [`Hi, I'm Michael.`, `I'm a web developer.`, `Scroll down to learn more about me.`]
 let count = 0;
 let index = 0;
 let currentText = '';
