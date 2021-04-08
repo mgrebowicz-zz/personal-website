@@ -8,9 +8,6 @@ const headline = document.querySelector('.headline');
 const introText = document.querySelector('.intro-text')
 
 
-// const title = section.querySelector('h1');
-
-
 const tl = new TimelineMax();
 
 
@@ -19,8 +16,6 @@ const tl = new TimelineMax();
 
 
 /*----- functions -----*/
-
-
 
 //typing effect
 
@@ -59,13 +54,13 @@ new fullpage('#fullpage', {
         const screenshots = document.querySelectorAll('.screenshot');
         const description = document.querySelector('p');
         tl.fromTo(screenshots, 0.7, { x: '100%' }, { x: '-70%' })
-        tl.fromTo(introText, 1.2, { opacity: 0 }, {opacity: 1 }, "-=1.2")
+        tl.fromTo(introText, 1.2, { opacity: 0 }, { opacity: 1 }, "-=1.2")
     }
 })
 
-tl.fromTo(hero, 1, { height: '0%' }, { height: '80%', ease: Power2.easeInOut })
+tl.fromTo(hero, 1.2, { height: '0%' }, { height: '80%', ease: Power2.easeInOut })
     .fromTo(hero, 1.2, { width: '100%' }, { width: '80%', ease: Power2.easeInOut })
     .fromTo(slider, 1.2, { x: "-100%" }, { x: "0%", ease: Power2.easeInOut }, "-=1.2")
-    .fromTo(logo, 1.2, { opacity: 0, x: 30 }, { opacity: 1, x: 0 }, "-=1.2")
+    .fromTo(logo, 1.2, { opacity: 0, x: 0 }, { opacity: 1, x: 0 }, "-=1.2")
     
 
