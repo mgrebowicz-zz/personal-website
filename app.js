@@ -20,6 +20,10 @@ const tl = new TimelineMax();
 
 /*----- functions -----*/
 
+
+
+//typing effect
+
 const texts = [`Hi, I'm Michael`, `I'm a web developer`, `Scroll down to learn more about me`]
 let count = 0;
 let index = 0;
@@ -27,8 +31,6 @@ let currentText = '';
 let letter = '';
 
 (function type() {
-   
-
     if (count === texts.length) {
         count = 0;
     }
@@ -40,9 +42,10 @@ let letter = '';
         count++;
         index = 0;
     }
-    setTimeout(type, 100)
-        
+    setTimeout(type, 100)        
 }());
+
+//fullpage smoth scrolling and text appear
 
 new fullpage('#fullpage', {
     autoSrcolling: true,
