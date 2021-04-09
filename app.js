@@ -40,7 +40,7 @@ let letter = '';
     setTimeout(type, 100)        
 }());
 
-//fullpage smoth scrolling and text appear
+//fullpage smooth scrolling and text appear
 
 new fullpage('#fullpage', {
     autoSrcolling: true,
@@ -57,8 +57,12 @@ new fullpage('#fullpage', {
     //     // const title = section.querySelector('h1');
     //     // tl.fromTo(title, 0.5, { y: '50', opacity: 0 }, { y: 0, opacity: 1 });
     //     tl.fromTo(introText, 1.2, { opacity: 0 }, { opacity: 1 }, "-=1.2")
-    // }
+    // } ..
+    
 });
+
+
+//intro animation
 
 tl.fromTo(hero, 1, { height: '0%' }, { height: '80%', ease: Power2.easeInOut })
     .fromTo(hero, 1, { width: '100%' }, { width: '80%', ease: Power2.easeInOut })

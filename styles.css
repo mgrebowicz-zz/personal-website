@@ -191,6 +191,12 @@ section {
     margin-top: 0;
 }
 
+.profile-photo {
+    width: 50%;
+    border: 2px solid black;
+    box-shadow: 12px 12px 9px 1px rgba(0, 0, 255, .2);
+}
+
 button {
     margin-right: -1px;
     border: solid 2px black;
@@ -379,6 +385,11 @@ button:hover {
 .three:hover::before {
     opacity: 0.2;
  }
+
+ a {
+    text-decoration: none;
+    color: lightgray;
+}
 
 
 
