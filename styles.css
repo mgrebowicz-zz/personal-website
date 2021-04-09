@@ -14,7 +14,7 @@ body {
     left: 0;
     width: 100%;
     height: 100vh;
-    background:whitesmoke;
+    background:goldenrod;
     background-size: cover;
     z-index: 1;
 }
@@ -142,12 +142,12 @@ section {
 
 
 .s2 {
-    background: whitesmoke;
+    background:lightgray;
     background-size: cover;
 }
 
 .s3 {
-    background: whitesmoke;
+    background:#023c19;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -156,13 +156,12 @@ section {
 }
 
 .s4 {
-    background: whitesmoke;
+    background:#c86000;
     background-size: cover;
 }
 
 .section h1 {
     font-size: 64px;
-    
     top: 20%;
     left: 50%;
     transform: translate(-50%, -20%);
@@ -172,9 +171,9 @@ section {
     width: 50% ;
     margin-right: 10%;
     font-size: 20px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     padding: 20px;
-    box-shadow: 12px 12px 9px 1px rgba(0, 0, 255, .2);
+    /* box-shadow: 12px 12px 9px 1px rgba(0, 0, 255, .2); */
 }
 
 #description p {
@@ -195,6 +194,7 @@ section {
     width: 50%;
     border: 2px solid black;
     box-shadow: 12px 12px 9px 1px rgba(0, 0, 255, .2);
+    min-width: 500px;
 }
 
 button {
@@ -240,6 +240,7 @@ button:hover {
     align-items: center;
     font-size: 1.5em;
  }
+
  .medium {
     grid-row: span 2;
     grid-column: span 2;
@@ -297,8 +298,6 @@ button:hover {
    z-index: 10;
 }
 
-
-
 .two {
    background-image: url("./img/BuoyTracker.png");
    color: lightgray; 
@@ -306,8 +305,21 @@ button:hover {
    background-position: top left;
    transition: all ease-in-out 300ms;
    position: relative;
-   text-shadow: 0 0 33px rgba(0, 0, 0, 0.85);
+   text-shadow: 0 0 3px rgba(0, 0, 0, 0.85);
    z-index: 10;
+   
+}
+
+.two:hover {
+    width: 300px;
+}
+
+.five:hover {
+    height: 200px;
+}
+
+.three:hover {
+    width: 200px;
 }
 
 .two::before {
@@ -327,6 +339,7 @@ button:hover {
 .two:hover::before {
     opacity: 0.2;
  }
+
 
 .five {
    background-image: url("./img/ConnectFour.png");
@@ -390,8 +403,4 @@ button:hover {
     text-decoration: none;
     color: lightgray;
 }
-
-
-
-
 
